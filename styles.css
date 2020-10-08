@@ -1,0 +1,76 @@
+canves{
+    background: #01101f;
+}
+
+#cluster_selection{
+   background: #01101f;
+    color: #D1DBE4; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+    padding-bottom: 8px;
+     padding-top: 8px;
+}
+
+#cluster_selection  label{ display: flex;}
+
+svg.main-svg {
+    background: transparent!important;
+}
+
+div{
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #D1DBE4; 
+      font-size: 12px;
+}
+
+.dash-dropdown{
+    padding: 8px 0;
+}
+
+#slider_min_samples{
+padding-top: 8px!important;
+padding-left: 2px!important;
+padding-right: 25px!important;
+}
+
+#react-entry-point{
+        padding: 15px;
+    background: #01101f;
+}
+
+.filter-panel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 8px;
+    margin-bottom: 8px;
+}
+
+.Select--single>.Select-control .Select-value, .Select-placeholder{
+    background: #27313a;
+    color: #D1DBE4; 
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label{
+    color: #D1DBE4!important; 
+}
+
+.Select-menu-outer{
+     background: #27313a;
+    color: #D1DBE4; 
+}
+.Select-menu-outer div{
+     background: #27313a;
+    color: #D1DBE4; 
+}
+
+.Select-control{
+      border-color: rgba(67,86,103,1);
+}
+
+#scene{
+    background: #0b1e2d;
+}
